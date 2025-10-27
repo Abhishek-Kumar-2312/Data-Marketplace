@@ -4,7 +4,7 @@ const hre = require("hardhat");
 const { ethers } = hre;
 
 async function main() {
-  // ⚠️ Replace with your deployed contract address
+  // Replaced with deployed contract address
   const contractAddress = "YOUR_DEPLOYED_CONTRACT_ADDRESS_HERE";
 
   const PriceOracleBTCUSD = await ethers.getContractFactory("PriceOracleBTCUSD");
@@ -40,3 +40,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
