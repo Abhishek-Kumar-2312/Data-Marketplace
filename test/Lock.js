@@ -15,7 +15,7 @@ async function main() {
   console.log(`⛽ Network: ${hre.network.name}`);
   console.log("--------------------------------------------");
 
-  // Event: Price updated
+  // Event : Price updated
   oracle.on("PriceUpdated", (newPrice, timestamp) => {
     const date = new Date(Number(timestamp) * 1000).toLocaleString();
     console.log("💹 Price Updated:");
@@ -40,5 +40,6 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
 
 
