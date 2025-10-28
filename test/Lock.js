@@ -24,7 +24,7 @@ async function main() {
     console.log("--------------------------------------------");
   });
 
-  // Event: Owner changed
+  // Event : Owner changed
   oracle.on("OwnerChanged", (oldOwner, newOwner) => {
     console.log("⚙️ Owner Changed:");
     console.log(`👤 Old Owner: ${oldOwner}`);
@@ -40,4 +40,5 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
 
