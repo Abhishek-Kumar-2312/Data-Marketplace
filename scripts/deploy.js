@@ -5,7 +5,7 @@ const hre = require("hardhat");
 async function main() {
   await hre.run("compile");
 
-  console.log("Deploying DataMarketplace...");
+  console.log("Deploying DataMarketplace....");
 
   const DataMarketplace = await hre.ethers.getContractFactory("DataMarketplace");
   const marketplace = await DataMarketplace.deploy();
@@ -26,3 +26,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
