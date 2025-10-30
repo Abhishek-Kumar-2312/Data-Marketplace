@@ -63,7 +63,7 @@ contract DataMarketplace {
 
     function purchaseDataset(uint256 _id) public payable {
         Dataset storage dataset = datasets[_id];
-        require(_id > 0 && _id <= datasetCount, "Invalid dataset ID");
+        require(_id > 0 && _id <= datasetCount, "Invalid dataset ID.");
         require(!dataset.isSold, "Dataset already sold");
         require(msg.value == dataset.price, "Incorrect payment amount");
 
@@ -110,3 +110,4 @@ contract DataMarketplace {
 
     receive() external payable {}
 }
+
