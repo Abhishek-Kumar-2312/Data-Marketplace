@@ -140,3 +140,7 @@ Example Deployment:
 This project is licensed under the MIT License – free to use and modify with attribution.
 
 🔗 GitHub : https://github.com/Abhishek-Kumar-2312/Data-Marketplace
+
+## Contract details 0x456A9e9A67E97C5067FC9974111b3a5d1b0D5104
+
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/2eadeaf9-49bb-4580-822e-d064fffeb0b3" />
